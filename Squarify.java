@@ -11,7 +11,7 @@ public class Squarify {
 
 	public static void main(String[] args) throws IOException {
 		Scanner sc = new Scanner(System.in);
-		System.out.println("insert file path");
+		System.out.println("insert image path");
 		String path = sc.nextLine();
 		sc.close();
 		File file = new File(path);
