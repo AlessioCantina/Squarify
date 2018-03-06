@@ -1,2 +1,2 @@
 # Squarify
-Java code to make an imagse squared
+Java code to make an images squared
