@@ -64,6 +64,7 @@ public class Squarify {
 		}
 		File outputfile = new File(path+"_squared.jpg");
 		ImageIO.write(img_new, "jpg", outputfile);
+		System.out.println("Done! Your squared image location is " + path+"_squared.jpg");
 	}
 		
 	public static int randInt(int min, int max) {
